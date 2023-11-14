@@ -1,0 +1,10 @@
+@charset "UTF-8";
+cite { float: right; }
+fieldset { border: none; }
+ul.classic { list-style: disc; margin-bottom: 1em; padding-left: 2em; }
+div.section { clear: both; padding-top: 50px; }
+.dropdown-upward { margin-top: 400px !important; }
+.main-site { position: relative; float: right; margin-top: -17px; padding: 15px 45px 15px 0; background: url(../images/arrow1-rightwards-black.png) 100% 50% no-repeat; }
+.main-site, .main-site:link, .main-site:visited { color: #000; text-decoration: none; }
+.main-site { font-size: 17px; }
+

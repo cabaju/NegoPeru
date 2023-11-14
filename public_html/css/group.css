@@ -1,0 +1,141 @@
+
+/* Negoperu Group */
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{ font-family: Arial Narrow, Verdana, sans-serif ;  background-color: #F8F8F8; margin:0;  }
+p  {font-size:20px; line-height: 140%;  color:black;  letter-spacing:0px; margin:5px 0 15px  0; padding:0; }
+h1 {font-size:40px;	text-align : left;	color:#ED3237;  letter-spacing:0px; margin: 0 ; padding:0; font-family: Arial Narrow, Helvetica, sans-serif;}
+h2 {font-size:30px;	text-align : left;	color:#E88000;  letter-spacing:0px; margin:5px 0 0  0; padding:0; font-family: Arial Narrow, Helvetica, sans-serif; }
+h3 {font-size:25px;	text-align : left;	color:#0400e8;  letter-spacing:0px; margin: 0; padding:0; font-family: Arial Narrow, Helvetica, sans-serif;}
+h4 {font-size:20px;	text-align : left;	color:#2D145F;  letter-spacing:0px; margin:0; padding:0;}
+h5 {font-size:17px;	text-align : left;	color:#2D145F;  letter-spacing:0px; margin:2px 0 0  0; padding:0;}
+h6 {font-size:14px;	text-align : left;	color:#2D145F;  letter-spacing:0px; margin:10px 0 0  0; padding:0;}
+a:link {text-decoration: none; font-size:20px; color:#FFB65B;}
+/* a:visited {text-decoration: none; color: ;}
+a:hover {text-decoration: none; color:  ;} */
+/*...................................................................................................*/
+#contenedorcabegroup{width:auto; height:160px;}
+.contenedor{width:1000px; height:160px; margin-left:auto; margin-right:auto;}
+.logogroup{width:1000px; height:110px;  }
+
+header nav {
+	background:#DB0000;
+	margin-bottom:5px;
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:10px 20px 10px 20px;
+	color:yellowgreen;
+	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	background:#FF3300;
+}
+
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:1000px;	
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	/* background: #E83028; */
+    background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 1.42);
+}
+
+
+
+
+#contenedorcuerpogroup{width:auto; height: auto; }
+.cuerpogroup{width:1000px; height: auto; margin-left:auto; margin-right:auto;  }
+.presentacion {width:1000px; height:570px; background-image: url(../img/bgp.png); background-repeat:repeat-y; margin-bottom:30px; padding:10px; }
+.empresas{ width:1000px; height:160px; margin-bottom:20px;}
+.empresas img{ margin:0 20px;}
+.empresas img:hover {
+border-radius:50%;
+-webkit-border-radius:50%;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+filter: grayscale(80%);
+}
+
+
+.contencolumnas{width:1000px; height: 500px; background-color:#FFF; margin-bottom:20px; }
+.ladizq{width:420px; height: 400px; float:left; margin:30px 60px 0 50px; }
+.ladizq img{ float:left; padding:0 15px 0 0; }
+
+
+.ladder{width:370px; height: 400px; float:right; margin:30px 50px 0 50px; }
+.ladder h2 { clear:both; }
+.ladder img { float:left; margin:0 24px 25px 0;}
+.ladder ul { margin:20px 0 0 40px; padding:0; list-style-image: url(../img/vineta2.png); }
+.ladder ul li { margin:0; padding:5px 5px; font-size:20px; color:orange;  }
+
+#contenpie{width: auto; height:150px; clear:both; }
+.pie{width:1000px; height:120px; margin-left:auto; margin-right:auto; margin-top:20px; }
+.pie p { text-align:center; color: black; font-size:19px; padding-top:20px;  }
+
+

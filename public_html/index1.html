@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milton Peña Curitima</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2? family=Lato:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="font.css">
+<!-- <link rel="stylesheet" href="main.css"> -->
+
+<link href="css/group.css"  rel="preconnect" type="text/css" />
+<link href="css/efectos.css" type="text/css" rel="stylesheet"/ >
+<link href="css/nivo-slider.css" type="text/css" rel="stylesheet"/ >
+<link href="css/styles.css" type="text/css" rel="stylesheet"/ >
+<script type="text/javascript" src="js/jquery-latest.js"></script>	
+<script type="text/javascript" >
+$(document).ready(function(){
+	var altura = $('.menu').offset().top;
+	
+	$(window).on('scroll', function(){
+		if ( $(window).scrollTop() > altura ){
+			$('.menu').addClass('menu-fixed');
+		} else {
+			$('.menu').removeClass('menu-fixed');
+		}
+	});
+ 
+});
+</script>
+<script type="text/javascript" src="js/jquery.min.js"></script>	
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+	jQuery.noConflict();
+	jQuery(window).load(function() {
+		jQuery('#slider').nivoSlider();
+	});
+</script>
+</head>
+
+
+<body>
+
+  <div id="contenedorcabegroup">
+    <div class="contenedor">
+    <header>
+        
+        <div class="logogroup" align="center">
+              <img src="img/logo-negoperu-group.jpg" width="420" height="110" />
+            </div>
+            <nav class="menu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="negoperu/contacto.html">Contacto</a></li>
+              <li><a href="negoperu/libron.php">Libro de Reclamación</a></li>				
+            </ul>
+        </nav>
+           
+    </header> 
+      </div>    
+    </div>
+    <div id="contenedorcuerpogroup">
+    <div class="cuerpogroup">
+      <div class="presentacion">
+            <div id="slideshow" class="container_12">
+                        <div id="slider" class="nivoSlider">
+                                  <img src="img/bienvenidos.jpg"  /> 
+                                    <img src="img/maquinas.jpg"  /> 
+                                    <img src="img/almacen.jpg"  /> 
+                                  <img src="img/equipo.jpg"  />  
+                                    <img src="img/exhibision.jpg"  /> 
+                                     
+                                                                
+                                                                    
+                              </div>
+                </div>
+        </div>
+        <div class="empresas" align="center">
+                  <a href="negoperu/index.php" ><img src="img/peruanita.jpg" /></a> 
+                          <a href="molinera/index.html" ><img src="img/molinera.jpg"  /></a>
+                            <a href="corporacion/index.html"><img src="img/corporacion.jpg" /></a>
+        </div>
+      <div class="contencolumnas">
+            <div class="ladizq">
+                  
+                      <img src="img/mision.jpg" />
+                      <h3>Misión</h3>                    
+                        <p>Integrar competitivamente la cadena productiva con productos y servicios de valor agregado, para la satisfacción de nuestros consumidores, generando desarrollo sostenible en nuestros colaboradores, proveedores, comunidad y accionistas.</p>
+                   
+                 
+                           <br />       	
+                        <img src="img/vision.jpg" />
+                        <h3>Visión</h3>
+                        
+                        <p>Ser un grupo empresarial innovador de excelencia en alimentos.</p>
+    
+                    
+                                    
+                   
+                </div>
+                <div class="ladder">
+                                                               
+          
+                       
+                        <h2>Valores</h2>
+                        <p>Valores corporativos que se cultivan en NEGOPERU GROUP.</p>
+                        <ul>
+                          <li>Confianza</li>
+                            <li>Solidaridad</li>
+                            <li>Respeto</li>
+                            <li>Compromiso</li>
+                        </ul>
+                        
+                        
+                </div>    
+        </div>
+    </div>
+    </div>
+    <div id="contenpie">
+        <div class="pie">
+              <p>Copyright © 2019 NEGOGROUP<br  />Todos los Derechos Reservados. <br />Lima - Perú </p>
+            </div>
+    </div>
+ 
+
+ <div class="social-bar">
+    <a href="https://www.facebook.com/ucontinental/" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com/DevCodela" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/watch?v=WGUV8RRxMIA" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com/devcodela/" class="icon icon-instagram" target="_blank"></a>
+  </div>
+</body>
+</html>

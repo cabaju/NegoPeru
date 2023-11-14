@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* Negociaciones Peruanita SAC */
+* {
+  padding: 0;
+  margin: 0;
+}
+Body{ font-family: Arial Narrow, Verdana, sans-serif ;  background-color: #FFF; margin:0;  }
+p  {font-size:20px; line-height: 140%;  color:#999;  letter-spacing:0px; margin:5px 0 15px  0; padding:0; }
+h1 {font-size:50px;	text-align : left;	color:#F7B9BC;  letter-spacing:0px; margin: 0 ; padding:0; font-family:Arial, Helvetica, sans-serif;}
+h2 {font-size:40px;	text-align : left;	color: #FFF;  letter-spacing:0px; margin:5px 0 0  0; padding:0; font-family: Arial Narrow, Helvetica, sans-serif; }
+h3 {font-size:30px;	text-align : left;	color:#FF8C8C;  letter-spacing:0px; margin: 0; padding:0; font-family: Arial Narrow, Helvetica, sans-serif;}
+h4 {font-size:25px;	text-align : left;	color:#2D145F;  letter-spacing:0px; margin:0; padding:0;}
+h5 {font-size:20px;	text-align : left;	color:#2D145F;  letter-spacing:0px; margin:2px 0 0  0; padding:0;}
+h6 {font-size:17px;	text-align : left;	color:#2D145F;  letter-spacing:0px; margin:10px 0 0  0; padding:0;}
+a:link {text-decoration: none; font-size:18px; color:#E63C45;}
+a:visited {text-decoration: none; color: ;}
+a:hover {text-decoration: none; color: #000;}
+/*...................................................................................................*/
+#contenedormenunego{width:auto; height:71px; }
+.contenmenunego{width:1020px; height:70px; margin-left:auto; margin-right:auto; }
+.logogroup{width:180px; height:70px; float:left; }
+header {
+  background: rgba(255,255,255,1);
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  border-bottom:1px solid #E63C45;
+}
+nav {
+   /* Desplazamos el nav hacia la izquierda */
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+  
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+ 
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding:23px 10px 22px 10px;
+  color: #E63C45;
+  text-decoration: none;
+}
+nav ul li a.elegido {
+  color: #999; 
+}
+ 
+nav ul li:hover {
+ 
+  color: #333;
+}
+
+#menunego { height:40px; list-style-type:none; margin:0; padding:0; width:1000px; background-image: url(../imagenes/bgmenu.png); background-repeat:no-repeat;  }
+#menunego li { display:inline; float:left; text-align:center; width: auto; padding:0; margin:0 16px;}
+#menunego li a, #menu li a:visited {color: #E63C45; display:block; font-family:Arial, sans-serif, Verdana; font-size:15px; height: auto; text-decoration:none; width: auto; padding:12px 2px 0 2px;}
+#menunego li a:hover {text-decoration: none; color: #333;}
+#menunego li a.elegido {color: #999; }
+
+#contenedorbienvenidonego{width:auto; height:350px; padding-top:70px; }
+.bienvenidonego{width:1000px; height:350px; margin-left:auto; margin-right:auto; }
+.logonego{width: 500px; height:310px; float:left; padding-top:40px; }
+.bienvenido{width: 470px; height:290px; float: right; padding-top:60px; padding-left:30px; }
+.bienvenido h1{ text-align:center; }
+#social-iconos {width:170px;height:50px; margin-bottom:10px; display:block;clear:both; margin-left:auto; margin-right:auto; clear:both;}
+.social-icons{display:table}
+.social-icons ul {list-style-image:none;list-style-position:outside;list-style-type:none; text-align:right;padding:5px 5px 0 0}
+.social-icons ul {padding:0;float: left;margin-bottom:0;}
+.social-icons li.social_icon {background:none !important;padding-left:0 !important; display:inline;float:left;margin-left:6px;}
+.social-icons li:hover {-moz-transition: all 0.5s ease-in-out;-webkit-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out;-moz-transform: rotate(360deg);-webkit-transform: rotate(360deg); -o-transform: rotate(360deg);transform: rotate(-360deg);}
+#contenedorpreempresa{width:auto; height:450px; background-color:#E63C45; background-image: url(../imagenes/bgpreempresa.png); background-repeat:repeat-x; }
+.preempresa{width:1000px; height:420px; margin-left:auto; margin-right:auto; padding-top:30px; }
+.preempresa img { float:left; margin:30px 170px 0 60px; }
+.preempresa p { color:#CCC; margin-top:40px;}
+.preempresa a{ float:right; color:#CCC; background-image:url(../imagenes/link1.png); background-repeat:no-repeat; padding-left:30px;}
+.preempresa a:hover { color: #666;}
+
+#contenedorpreproductos{width:auto; height:550px; background-color:#FDECED;  }
+.preproductos{width:1000px; height:520px; margin-left:auto; margin-right:auto; padding-top:30px; }
+.preproductos h2 { color:#E63C45;}
+
+.img_d5 { width:180px; height:280px;}
+#left, #right { text-align: center; float: left; width: 20px; }
+#ISL_Cont_1 { float: left; width: 1000px; overflow: hidden; margin:5px 0 0 0; }
+.yutu { text-align: left; display: inline; float: left; width:180px; height: 320px; margin: 0px 20px; padding:20px 0; }
+.yutu a { color:#CA1C1C; size:15px; margin:5px 0 0 0; }
+.yutu img:hover {filter: opacity(.5);}
+
+.preproductosmuestra{ width:180px; height:320px; float:left; margin-top:30px; margin-right:18px; margin-bottom:20px; border:1px solid #FFF; }
+.preproductosmuestra p{ text-align:center; color:#E63C45; }
+#link { float:right; color:#E63C45; margin-top:10px; padding-left:30px; background-image:url(../imagenes/link2.png); background-repeat:no-repeat;}
+#link:hover { color: #666;}
+
+#contenedorpreservicios{width:auto; height:450px; background-color:#E63C45; background-image: url(../imagenes/bgpreempresa.png); background-repeat:repeat-x;  }
+.preservicios{width:1000px; height:420px; margin-left:auto; margin-right:auto; padding-top:30px; }
+.preservicios img { float:left; margin:50px 150px 0 60px; }
+.preservicios h3{ margin-top:50px; }
+.preservicios a{ float:right; color:#CCC; background-image:url(../imagenes/link1.png); background-repeat:no-repeat; padding-left:30px;}
+.preservicios a:hover { color: #666;}
+.preservicios p { color:#CCC; }
+
+#contenedorprecertificado{width:auto; height:450px; background-color:#FDECED;  }
+.precertificado{width:1000px; height:420px; margin-left:auto; margin-right:auto; padding-top:30px; }
+.precertificado h2 { color:#E63C45;}
+.precertificado img { float:left; margin:50px 0 30px 50px;}
+.precertificado a{ float:right; color:#E63C45; margin-top:10px; background-image: url(../imagenes/link2.png); background-repeat:no-repeat; padding-left:30px; clear:both;}
+.precertificado a:hover { color: #666;}
+
+#contenedorpreclientes{width:auto; height:450px; background-color:#E63C45; background-image: url(../imagenes/bgpreempresa.png); background-repeat:repeat-x;  }
+.prepreclientes{width:1000px; height:420px; margin-left:auto; margin-right:auto; padding-top:30px; }
+.prepreclientes img { float:left; margin:50px 0 30px 50px;}
+.prepreclientes a{ float:right; color:#CCC; background-image:url(../imagenes/link1.png); background-repeat:no-repeat; padding-left:30px;}
+.prepreclientes a:hover { color: #666;}
+
+#contenedorprecontacto{width:auto; height:550px;  }
+.precontacto{width:1000px; height:520px; margin-left:auto; margin-right:auto; padding-top:30px; }
+.precontacto h2 { color:#E63C45;}
+.datoscontacto{width: 500px; height:500px; float:left;  }
+
+.datoscontacto ul { margin:0 0 0 10px; padding:0; list-style:none;}
+.datoscontacto ul li { color:#999; margin:0; padding:3px 0 15px 40px; font-size:20px;}
+.datoscontacto ul li a { color:#999;}
+.datoscontacto ul li a:hover { color: #000;}
+.icomovil { background-image: url(../imagenes/icomovil.png); background-repeat:no-repeat; }
+.icofijo{ background-image: url(../imagenes/icofijo.png); background-repeat:no-repeat; }
+.icoubica{ background-image: url(../imagenes/icoubica.png); background-repeat:no-repeat; }
+.icomail{ background-image: url(../imagenes/icomail.png); background-repeat:no-repeat; }
+.icohorario{ background-image: url(../imagenes/icohorario.png); background-repeat:no-repeat; }
+.icofa { background-image: url(../imagenes/icofa.png); background-repeat:no-repeat; }
+.icotw { background-image: url(../imagenes/icotw.png); background-repeat:no-repeat; }
+.icoinstg { background-image: url(../imagenes/icoinstg.png); background-repeat:no-repeat; }
+
+#contenedorlogoytitulo{width:auto; height:270px; padding-top:70px;}
+.logoytitulo{width:1000px; height:270px; margin-left:auto; margin-right:auto; }
+.logo{width: 500px; height:230px; float:left; padding-top:40px; }
+.titulo{width: 470px; height:150px; float: right; padding-left:30px; padding-top:120px;  }
+.titulo h1{ text-align:center; }
+#contenedorempresa{width:auto; height:750px; background-color:#E63C45; background-image: url(../imagenes/bgpreempresa.png); background-repeat:repeat-x; }
+.empresa{width:1000px; height:720px; margin-left:auto; margin-right:auto; padding-top:30px; }
+.empresa img { float:left; margin:30px 50px 0 0; }
+.empresa p { color:#CCC;    }
+.empresa h3 { margin-top:30px; color:#F0F0F0; }
+.mision{width:400px; height: auto; float:left; margin-right:100px;  }
+.vision{width:400px; height: auto; float: right; margin-left:100px; }
+
+
+
+#contenedorproductos{width:auto; height: auto; background-color:#FFF9FA; }
+.productos{width:1000px; height:1630px; margin-left:auto; margin-right:auto;  }
+.menuproductos{width:250px; height:1530px; float:left; background-color:#E63C45;}
+.menuvertical{ width:150px; height:400px; margin:100px 30px 0 50px;}
+.menuvertical ul {  margin:0; padding:0; list-style-type:none; }
+.menuvertical ul li {  margin:0; padding:11px 0; border-bottom:1px dashed #F90; }
+.menuvertical ul li a:link {text-decoration: none; color: #fff; margin:0; padding:0; font-size:20px;  }
+.menuvertical ul li a:visited {text-decoration: none; color: #FF3E3E; font-size:20px;}
+.menuvertical ul li a:hover {text-decoration: none;	color: #F60; font-size:20px;}
+.menuvertical ul li a.elegido, #menu li a.elegido:visited, #menu li a:active, #menu li a:focus {color: #FF0; }
+#fondo { background-color: #B61F26; }
+
+.detalleproductos{width:710px; height: auto; float: right; padding: 40px 0 0 40px; }
+.detalleproductos h2 { color:#BC1821; margin-bottom:20px; }
+.detalleproductos h3  { color:#EB676D; clear:both; }
+.detalleproductos h4 { color:#EB676D; }
+.producto{ width:190px; height:300px; float:left; margin-right:20px; margin-bottom:20px; border:1px solid #FDEAEC; padding:10px; background-color:#FFF; }
+.producto img:hover {filter: opacity(.5);}
+.producto p { text-align:center;  line-height: 130%; font-size:18px; }
+.fortificado{ clear:both; }
+.vita { color: #06C; }
+.vitamina{ width:255px; height:230px; float:left; margin:20px 50px;   }
+
+#contenedorservicios{width:auto; height: auto; background-color:#E63C45; }
+.servicios{width:1000px; height:700px; margin-left:auto; margin-right:auto; }
+.servi{width:900px; height:590px; margin:0 50px; padding:50px 0; }
+.servi img { float:left; margin-right:40px; margin-bottom:80px; }
+.servi h2 { color:#F7B9BC; }
+.servi p { color: #CCC; }
+#contenedorcertificacion{width:auto; height: auto; background-color:#E63C45; }
+.certificacion{width:1000px; height:600px; margin-left:auto; margin-right:auto; }
+.certificado{width:300px; height:350px; margin-right:30px; margin-top:80px; float:left; }
+.certificado p { color: #CCC; }
+
+#contenedorclientes{width:auto; height: auto; background-color:#FDECED; }
+.clientes{width:1000px; height:1100px; margin-left:auto; margin-right:auto; padding:50px 0; }
+.clientes img { float: left; margin-right:30px; margin-bottom:40px; }
+#contenedorcontacto{width:auto; height:; background-color: #FFF9FA; border-bottom:1px solid #FDEAEA; }
+.contacto{width:1000px; height:1000px; margin-left:auto; margin-right:auto; padding:40px 0; }
+.contacto h2{ color:#900; }
+#map{ width:998px; height:400px; margin-top:50px; border:1px solid #FFF;}
+
+.libro{width:1000px; height: auto; margin-left:auto; margin-right:auto; padding:40px 0; }
+.reclamo{width:600px; height: auto; margin-left: auto; margin-right:auto; margin-bottom:0; margin-top:40px;  }
+.reclamo h2 { font-family:Arial, Helvetica, sans-serif; font-size:20px; margin-top:20px; color:#FF7575;}
+
+.fondo { background-color:#FFD7D7; border:none; width:530px; padding:10px; }
+.reclamo form  { font-family:Arial, Helvetica, sans-serif; font-size:15px; color: #666; }
+.tipobien { padding:30px 0; font-weight:bold; }
+.reclamo form input, textarea, select { margin:10px 0 3px 0; font-family:Arial, Helvetica, sans-serif; font-size:15px; color: #666; border:1px solid #FFC6C6;}
+.reclamo form placeholder { margin-left:10px;  }
+#enviarf{ margin:20px 0 20px 230px; background-color:#F14144; color: #FFF; border:none;}
+.peque{ font-size:13px; font-style:italic; color:#C30; }
+
+
+#registro {width: 340px; height:500px; float: right;  margin-left:160px; padding:0;  }
+#registro p br {clear: left;}
+#registro input, textarea { border:1px solid #4A311C; padding:5px; margin:5px 0;  }
+.enviar{margin:0; background-color:#E63C45; color: #FFF;}
+
+#cuerpopie{width: auto; height:200px; clear:both; border-top:1px solid #E63C45;  }
+.pie{width:1000px; height:200px; margin-left:auto; margin-right:auto; }
+.pie p { text-align:center; color:#E63C45; font-size:17px; padding-top:20px;  }
+
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border:none;}
+
+#outerImageContainer{ position: relative; background-color: #E63C45; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:imagenes/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../imagenes/prevlabel.gif) left 50% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../imagenes/nextlabel.gif) right 50% no-repeat; }
+
+#imageDataContainer{ font: 12px Verdana, Helvetica, sans-serif; background-color: #E63C45; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #FFF; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #240000; }
+
+
+
+
+
+
+

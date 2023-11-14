@@ -1,0 +1,325 @@
+
+/* --------------------------------------- */
+     /* 📳📳 REDES SOCIALES 📳📳 */
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	/* background: #E83028; */
+    background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 1.42);
+}
+
+/* --------------------------- */
+
+.btnMenu{
+    border: 1px solid black;
+    color:black;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+/* --------------------------------------- */
+
+/* ⚡RESPONSIVE DESIGN⚡ */
+/* EL MODELO ESCRITORIO A DISPOSITIVOS MOVILES */
+@media only screen and (max-width: 900px){
+
+
+    section ul{
+        display: flex;
+        font-size: 14px;
+        padding: auto;
+    }
+
+.menu{
+    padding: 2px 8px 2px 8px;
+}
+.menu2{
+    padding:2px 8px 2px 8px;
+}
+.menu:hover{
+    color:red;
+    font-size: 7px;
+}
+
+.menu:active{
+    color:green;
+}
+
+.menu1:hover{
+    color:red;
+    font-size: 7px;
+}
+
+.menu1:active{
+    color:green;
+} 
+
+.menu2:hover{
+    color:red;
+    font-size: 10px;
+}
+
+.menu2:active{
+    color:green;
+}
+    .item{
+        /* calc(100% / 3 - 20px) */
+        width: calc(50% - 15px);
+    }
+
+}
+@media only screen and (max-width: 700px){
+    .titulo{
+        font-size: 19px;
+    }
+    .social-bar{
+        top: 35%;
+        font-size: .6rem; 
+    }
+    section ul{
+        display: flex;
+        font-size: 13px;
+        padding: auto;
+    }
+
+    .menu{
+    padding: 2px 2px 2px 2px;
+    }
+    .menu2{
+    padding:2px 2px 2px 2px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .item{
+        width: 100%;
+        box-shadow: 5px 5px 30px rgba(0,0,0,.3);
+    }
+    section{
+        width: 100%;
+        display: block;
+    }
+    section ul{
+        display: flex;
+        font-size: 9px;
+        padding: auto;  
+    }
+
+    .titulo{
+        font-size: 17px;
+    }
+    .social-bar{
+        top: 35%;
+        font-size: .5rem; 
+    }
+    .menu{
+        padding: 2px .8px 2px .8px;
+    }
+    .menu2{
+        padding:2px .8px 2px .8px;
+    }
+
+    .polos{
+        padding: 1px 0px;
+        background-color: white;
+    }
+    .box{
+        display: flex;
+        justify-content: space-between; 
+         flex-wrap: wrap; 
+        width: 100%;
+    }
+    .item{
+        /* width: 32%;  */
+       /* width: calc(100%/4 - 20px); */
+       /* margin-bottom: 30px; */
+       text-align: center;
+       border: 1px solid white;  
+    }
+
+    .item img{
+        width: 100%;
+        display: flex;  
+     }
+     .mar{
+         border: 1.2px  solid black;
+         background-color:white;
+         padding: 1px 0px;
+         margin: none;
+         width: 99.8%;
+     }
+     .imagen{
+        transition: all 300ms;  
+    }
+    .imagen:hover{
+        transform: scale(1.1);
+    }
+
+}
+
+
+@media only screen and (max-width: 380px){
+    .item{
+        width: 100%;
+        box-shadow: 5px 5px 30px rgba(0,0,0,.3);
+    }
+    section{
+        width: 100%;
+        display: block;
+    }
+    section ul{
+        display: flex;
+        font-size: 6px;
+        padding: auto; 
+    }
+
+    .titulo{
+        font-size: 12px;
+    }
+    .social-bar{
+        top: 35%;
+        font-size: .5rem; 
+    }
+    .menu{
+        padding: 2px .3px 2px .3px;
+    }
+    .menu2{
+        padding:2px .3px 2px .3px;
+    }
+
+    .happy{
+        background-color:white;
+        padding: none;
+        transition: all 300ms;
+    }
+    .happy1{
+        text-align: center;
+        font-size: 14px;        
+    }
+    
+    .happy1:hover{
+        transform: scale(1.15);
+    }
+    .padre{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .contenedor2{
+        width: 100%;
+    }
+    .caja2{
+        display: flex;
+        justify-content: space-evenly;  
+    }
+    
+    .redes2 a{
+        display: inline-block;    	
+    }
+    
+    .redes2 i{
+        font-size: .5rem;
+        width: 50px;
+        color:black;
+        text-align: center;
+    }
+    
+    .redes2 i:hover{
+        color:red;
+        font-size: 20px;
+    }
+    .notlim{
+        margin: 7px;
+        font-size: 5px;
+        color: black;
+        text-align: center;
+        cursor: pointer;
+    }
+    .notlim:hover{
+        color:blue;
+        font-size: 7px;
+    }
+    .footer{
+        font-size: 9px;
+    }
+
+    .imagen{
+        transition: all 300ms;  
+    }
+    .imagen:hover{
+        transform: scale(.4);
+    }
+    
+    .polos{
+        padding: 1px 0px;
+        background-color: white;
+    }
+    .box{
+        display: flex;
+        justify-content: space-between; 
+         flex-wrap: wrap; 
+        width: 100%;
+    }   
+    .item{
+       text-align: center;
+       border: 1px solid white;  
+    }
+    .item img{
+       width: 100%;
+       display: flex;  
+    }
+    .mar{
+        border: 1.2px  solid black;
+        background-color:white;
+        padding: 1px 0px;
+        margin: none;
+        width: 99.8%;
+    }
+    
+}
